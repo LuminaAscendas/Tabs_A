@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, minimal-ui">
+		  <title>Tabs</title>
+		  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		  <script type="text/javascript" src="assets/js/jquery/jquery-1.12.2.min.js"></script>
+		  <script type="text/javascript" src="assets/js/jquery/jquery-ui.min.js"></script>
+		  <script type="text/javascript" src="assets/js/jquery/jquery.ui.touch-punch.min.js"></script>
+		  <script type="text/javascript" src="assets/js/script.js"></script>
+		  <script type="text/javascript" src="assets/js/data.js"></script>
+	</head>
+	<body>
+		<main>
+		<a href="#summary_text_0" style='position:absolute;top:-5000px;'>123</a>
+		<!-- <div role='main' style='display:none;'></div> -->	
+		<div class="mainContainer" id="mainContainerId">
+		<div class="preload">
+            <div class="loader"></div>
+        </div>
+			<div role='navigation' style='display:none;'></div>	
+			<h1 id="dummyDiv">tab order</h1>
+		
+ 			<!-- <div class="menuBar">
+			</div> -->
+			<div class="activityPage" role='tablist'>
+					<button id="btn0" role='tab'  aria-selected="true" aria-controls="page_0" class="btnClass active" aria-label="Overview">Overview</button>
+					<div id="page_0" class='pageClass'  role="tabpanel" aria-labelledby="btn0" >
+							<div id="summary_text_0" class="summaryClass" role='none' aria-label="Organisms that do not manufacture their own food are consumers or decomposers.">Organisms that do not manufacture their own food are consumers or decomposers.</div>
+							<img src="assets/images/0.png" class="imageId" id="img0" role='img' aria-label="consumers or decomposers" title="" alt="Overview"/>
+						</div>
+					<button id="btn1" role='tab'  aria-selected="false" aria-controls="page_1" class="btnClass" aria-label="Primary consumer">Primary consumer</button>
+					<div id="page_1" class='pageClass' role="tabpanel" aria-labelledby="btn1" >
+							<div id="summary_text_1" role='none' class="summaryClass" aria-label="This moose is an herbivore, or a primary consumer. Primary consumers are animals that eat producers, in this case flowering grasses. The chemical energy stored in the plants is transferred to the primary consumer as the animal eats.">This moose is an herbivore, or a primary consumer. Primary consumers are animals that eat producers, in this case flowering grasses. The chemical energy stored in the plants is transferred to the primary consumer as the animal eats.</div>	
+							<img src="assets/images/1.png" class="imageId" id="img1" role='img' aria-label="moose" alt="Primary consumer"/>
+						</div>
+					<button id="btn2" role='tab'  aria-selected="false" aria-controls="page_2" class="btnClass" aria-label="Tertiary consumer">Tertiary consumer</button>
+					<div id="page_2" class='pageClass' role="tabpanel" aria-labelledby="btn2">
+							<div id="summary_text_2" role='none' class="summaryClass" aria-label="The birds here, European bee eaters, are carnivores—animals that eat other animals--and also tertiary consumers. Tertiary consumers are animals that eat secondary consumers. The dragonfly, also a carnivore, is a secondary consumer because it eats primary consumers—mostly other flying insects. Secondary and tertiary consumers gain the energy they require from the bodies of the animals they eat.">The birds here, European bee eaters, are carnivores—animals that eat other animals--and also tertiary consumers. Tertiary consumers are animals that eat secondary consumers. The dragonfly, also a carnivore, is a secondary consumer because it eats primary consumers—mostly other flying insects. Secondary and tertiary consumers gain the energy they require from the bodies of the animals they eat.</div>				
+							<img src="assets/images/2.png" class="imageId" id="img2" role='img' aria-label="birds" alt="Tertiary consumer"/>
+							</div>
+							
+					<button id="btn3" role='tab'  aria-selected="false" aria-controls="page_3" class="btnClass" aria-label="Consumer--detritus">Consumer--detritus</button>
+					<div id="page_3" class='pageClass' role="tabpanel" aria-labelledby="btn3">
+							<div id="summary_text_3" role='none' class="summaryClass" aria-label="This Sally Lightfoot crab is a consumer that eats detritus, 
+							organic matter made up of animal carcasses, leaf litter, and feces. Detritus feeders, which typically include worms, mollusks, crabs, insects, and millipedes, are abundant in both aquatic and terrestrial environments. These animals gain the energy they need when they consume the organic matter contained in the detritus. Here, the crab is feeding on detritus found on volcanic rock.">This Sally Lightfoot crab is a consumer that eats detritus, organic matter made up of animal carcasses, leaf litter, and feces. Detritus feeders, which typically include worms, mollusks, crabs, insects, and millipedes, are abundant in both aquatic and terrestrial environments. These animals gain the energy they need when they consume the organic matter contained in the detritus. Here, the crab is feeding on detritus found on volcanic rock.</div>					
+							<img src="assets/images/3.png" class="imageId" id="img3" role='img' aria-label="crab" alt="Consumer--detritus"/>
+						</div>
+					<button id="btn4" role='tab'  aria-selected="false" aria-controls="page_4" class="btnClass" aria-label="Decomposers">Decomposers</button>
+					<div id="page_4" class='pageClass' role="tabpanel" aria-labelledby="btn4">
+							<div id="summary_text_4" role='none' class="summaryClass" aria-label="Mushrooms such as these are decomposers, organisms that gain needed energy by breaking down waste products and dead organisms—like this fallen tree. Decomposers, which are typically bacteria and fungi, release simple inorganic molecules from dead organisms, making them available for producers to use. Unlike the visible reproductive structures pictured, much of the mushroom’s body is invisible and threadlike, branching throughout the log as it decomposes dead organic matter.">Mushrooms such as these are decomposers, organisms that gain needed energy by breaking down waste products and dead organisms—like this fallen tree. Decomposers, which are typically bacteria and fungi, release simple inorganic molecules from dead organisms, making them available for producers to use. Unlike the visible reproductive structures pictured, much of the mushroom’s body is invisible and threadlike, branching throughout the log as it decomposes dead organic matter.</div>	
+							<img src="assets/images/4.png" class="imageId" id="img4" role='img' aria-label="mushrooms" alt="Decomposers"/>
+							</div>
+				<div class="pageCont">
+				</div>
+				
+				<div class="pageCont">
+				</div>
+				
+				<div class="pageCont">
+				</div>
+				
+				<div class="pageCont">
+				</div>
+				<div class="pageCont">
+				</div>
+				
+					
+
+					<div id="dummyDivReverse"></div>
+				</div>
+				
+				<div id="dummyDivReverse1" role="none"></div>
+				
+			</div>
+			
+			
+		</div>
+		</main>
+	</body>
+	<script>
+	
+	
+	
+	$.holdReady(true);
+		var preloadComplete=false;
+		$.getScript("./assets/js/jquery/preloadjs-0.6.2.min.js", function() {
+			$.holdReady(false);
+			manifest = [
+				"assets/images/loading.gif",
+				"assets/images/0.png",
+				"assets/images/1.png",
+				"assets/images/2.png",
+				"assets/images/3.png",
+				"assets/images/4.png"
+			];
+			preload = new createjs.LoadQueue(true);
+			preload.addEventListener("progress", function() {
+				console.log('Updating preloading progress...'+Math.round(preload.progress*100)+"%");
+			});
+			preload.addEventListener("complete", function(){
+				setTimeout(function(){
+					$('.preload').fadeOut();
+				},100)
+			});
+			preload.setMaxConnections(5);
+			preload.loadManifest(manifest);
+		});
+	
+	
+	
+
+	
+	</script>
+	
+ 	  <!-- <script type="text/javascript" defer src="assets/js/jquery/fitToScreen.js"></script> -->
+	
+</html>
